@@ -13,6 +13,8 @@
 		BEFF0A362649D362000A98F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEFF0A352649D362000A98F4 /* Assets.xcassets */; };
 		BEFF0A392649D362000A98F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEFF0A382649D362000A98F4 /* Preview Assets.xcassets */; };
 		BEFF0A3C2649D362000A98F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFF0A3A2649D362000A98F4 /* LaunchScreen.storyboard */; };
+		BEFF0A452649D758000A98F4 /* Yellowtail-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEFF0A442649D758000A98F4 /* Yellowtail-Regular.ttf */; };
+		BEFF0A492649EC6A000A98F4 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFF0A482649EC6A000A98F4 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BEFF0A382649D362000A98F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BEFF0A3B2649D362000A98F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEFF0A3D2649D362000A98F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEFF0A442649D758000A98F4 /* Yellowtail-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yellowtail-Regular.ttf"; sourceTree = "<group>"; };
+		BEFF0A482649EC6A000A98F4 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		BEFF0A232649D35E000A98F4 = {
 			isa = PBXGroup;
 			children = (
+				BEFF0A432649D71E000A98F4 /* Fonts */,
 				BEFF0A2E2649D35E000A98F4 /* Card */,
 				BEFF0A2D2649D35E000A98F4 /* Products */,
 			);
@@ -59,6 +64,7 @@
 				BEFF0A2F2649D35E000A98F4 /* AppDelegate.swift */,
 				BEFF0A312649D35E000A98F4 /* SceneDelegate.swift */,
 				BEFF0A332649D35E000A98F4 /* ContentView.swift */,
+				BEFF0A482649EC6A000A98F4 /* InfoView.swift */,
 				BEFF0A352649D362000A98F4 /* Assets.xcassets */,
 				BEFF0A3A2649D362000A98F4 /* LaunchScreen.storyboard */,
 				BEFF0A3D2649D362000A98F4 /* Info.plist */,
@@ -73,6 +79,14 @@
 				BEFF0A382649D362000A98F4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BEFF0A432649D71E000A98F4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BEFF0A442649D758000A98F4 /* Yellowtail-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +149,7 @@
 				BEFF0A3C2649D362000A98F4 /* LaunchScreen.storyboard in Resources */,
 				BEFF0A392649D362000A98F4 /* Preview Assets.xcassets in Resources */,
 				BEFF0A362649D362000A98F4 /* Assets.xcassets in Resources */,
+				BEFF0A452649D758000A98F4 /* Yellowtail-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEFF0A492649EC6A000A98F4 /* InfoView.swift in Sources */,
 				BEFF0A302649D35E000A98F4 /* AppDelegate.swift in Sources */,
 				BEFF0A322649D35E000A98F4 /* SceneDelegate.swift in Sources */,
 				BEFF0A342649D35E000A98F4 /* ContentView.swift in Sources */,
